@@ -26,4 +26,7 @@ type Query {
     game(id: ID!) : Game
     author(id: ID!) : Author
 }
+type  Mutation{
+    deleteGame(id: ID!): [Game]
+}
 `;
